@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\Urok-09-04-20\\MyprojecsApp.csproj": {}
+    "C:\\projects\\HW-14-04-20\\MyprojecsApp.csproj": {}
   },
   "projects": {
-    "C:\\projects\\Urok-09-04-20\\MyprojecsApp.csproj": {
+    "C:\\projects\\HW-14-04-20\\MyprojecsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\Urok-09-04-20\\MyprojecsApp.csproj",
+        "projectUniqueName": "C:\\projects\\HW-14-04-20\\MyprojecsApp.csproj",
         "projectName": "MyprojecsApp",
-        "projectPath": "C:\\projects\\Urok-09-04-20\\MyprojecsApp.csproj",
+        "projectPath": "C:\\projects\\HW-14-04-20\\MyprojecsApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\Urok-09-04-20\\obj\\",
+        "outputPath": "C:\\projects\\HW-14-04-20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
